@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header >
+       <div class="container">
+        <div class="header-inner">
+          <div class="logo">
+            <h1>Tourist Agency</h1>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#home">Главная</a></li>
+              <li><a href="#about">О нас</a></li>
+              <li><a href="#tours">Услуги</a></li>
+              <li><a href="#reviews">Отзывы</a></li>
+              <li><a href="#contact">Связаться с нами</a></li>
+              <li><a href="#contact">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+       </div>
+    </header>
+
+    <div class="slider" id="home">
+      <div class="slides">
+        <div class="slide slide1">
+          <h2>Популярные туры</h2>
+          <p>
+            Лучшая турфирма в Актобе! Путешествуйте с нами по самым
+            привлекательным ценам. Скидки до 50% на туры каждую пятницу!
+            Уникальные маршруты и экскурсии. Постоянные обновления предложений.
+            С нами путешествовать легко и приятно!
+          </p>
+        </div>
+        <div class="slide slide2">
+          <h2>Специальные предложения</h2>
+          <p>
+            Лучшая турфирма в Актобе! Путешествуйте с нами по самым
+            привлекательным ценам. Скидки до 50% на туры каждую пятницу!
+            Уникальные маршруты и экскурсии. Постоянные обновления предложений.
+            С нами путешествовать легко и приятно!
+          </p>
+        </div>
+        <div class="slide slide3">
+          <h2>Горящие туры</h2>
+          <p>
+            Лучшая турфирма в Актобе! Путешествуйте с нами по самым
+            привлекательным ценам. Скидки до 50% на туры каждую пятницу!
+            Уникальные маршруты и экскурсии. Постоянные обновления предложений.
+            С нами путешествовать легко и приятно!
+          </p>
+        </div>
+        <div class="slide slide4">
+          <h2>Экскурсии и развлечения</h2>
+          <p>
+            Лучшая турфирма в Актобе! Путешествуйте с нами по самым
+            привлекательным ценам. Скидки до 50% на туры каждую пятницу!
+            Уникальные маршруты и экскурсии. Постоянные обновления предложений.
+            С нами путешествовать легко и приятно!
+          </p>
+        </div>
+      </div>
+      <button class="prev" onclick="prevSlide()"><</button>
+      <button class="next" onclick="nextSlide()">></button>
+    </div>
+
+    <!-- O  НАС -->
+    <div class="about" id="about">
+      <h1>О нас</h1>
+      <div class="about-us">
+        <div class="about-content">
+          <p>
+            Туристическое агентство "Aktobe" - Мы компания, занимающаяся
+            туристическими услугами. Предоставляем различные туристические
+            пакеты, включая организацию поездок, бронирование отелей, транспорта
+            и экскурсий. Кроме того мы, занимаемся организацией корпоративных
+            мероприятий и индивидуальных туров для клиентов.Мы работаем на рынке
+            более 10 лет и предлагаем лучший сервис для наших клиентов.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="Tropics_Coast_Sky_Palms_549709_1280x853.jpg" alt="О нас" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container2" id="tours">
+      <div class="card">
+        <img src="balloon.jpg" alt="Hot Air Balloon" class="card-image" />
+        <div class="card-content">
+          <h3 class="card-title">Групповые туры</h3>
+          <p class="card-description">
+            Насладитесь организованными поездками с нашими опытными гидами.
+          </p>
+          <p class="card-price">Цена: от 10000 тг.</p>
+          <a href="#" class="card-button">Заказать тур</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="balloon.jpg" alt="Hot Air Balloon" class="card-image" />
+        <div class="card-content">
+          <h3 class="card-title">Индивидуальные туры</h3>
+          <p class="card-description">
+            Персонализированные маршруты для вас и вашей компании.
+          </p>
+          <p class="card-price">от 20000 тг.</p>
+          <a href="#" class="card-button">Заказать тур</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="balloon.jpg" alt="Hot Air Balloon" class="card-image" />
+        <div class="card-content">
+          <h3 class="card-title">Экскурсии</h3>
+          <p class="card-description">
+            Узнайте больше о местных достопримечательностях.
+          </p>
+          <p class="card-price">Цена: от 5000 тг.</p>
+          <a href="#" class="card-button">Заказать тур</a>
+        </div>
+      </div>
+    </div>
+
+    <section id="reviews">
+      <h2 style="text-align: center;">Отзывы</h2>
+      <div class="reviews">
+        <div class="review-card">
+          <h3>Иван Иванов</h3>
+          <p>
+            Отличное агентство! Все было организовано на высшем уровне.
+            Обязательно воспользуюсь их услугами еще раз.
+          </p>
+        </div>
+        <div class="review-card">
+          <h3>Мария Смирнова</h3>
+          <p>
+            Очень довольна поездкой! Все прошло гладко, без задержек и проблем.
+            Рекомендую всем!
+          </p>
+        </div>
+        <div class="review-card">
+          <h3>Алексей Петров</h3>
+          <p>
+            Большое спасибо за прекрасно организованный тур! Все было
+            замечательно, отели и экскурсии на высоте.
+          </p>
+        </div>
+        <div class="review-card">
+          <h3>Екатерина Кузнецова</h3>
+          <p>
+            Невероятное путешествие! Спасибо агентству за заботу и внимание к деталям.
+          </p>
+        </div>
+        <div class="review-card">
+          <h3>Дмитрий Соколов</h3>
+          <p>
+            Тур прошел отлично! Много впечатлений и положительных эмоций.
+            Все было на высоте!
+          </p>
+        </div>
+        <div class="review-card">
+          <h3>Анна Иванова</h3>
+          <p>
+            Замечательная организация тура! Обязательно воспользуюсь услугами
+            этого агентства еще раз.
+          </p>
+        </div>
+        <div class="review-card">
+          <h3>Дмитрий Соколов</h3>
+          <p>
+            Тур прошел отлично! Много впечатлений и положительных эмоций.
+            Все было на высоте!
+          </p>
+        </div>
+        <div class="review-card">
+          <h3>Анна Иванова</h3>
+          <p>
+            Замечательная организация тура! Обязательно воспользуюсь услугами
+            этого агентства еще раз.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- СВЯЗЬ -->
+    <div class="container3" id="connect">
+      <div class="left-content">
+        <h1>Форма обратной связи (contact form)</h1>
+        <p>
+          Есть вопросы? Напишите нам, и наш менеджер ответит вам в ближайшее
+          время.
+        </p>
+      </div>
+      <div class="right-content">
+        <form>
+          <div class="form-group">
+            <label for="name">Введите имя:</label>
+            <input type="text" id="name" name="name" placeholder="Ваше имя" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Введите email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ваш email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Сообщение:</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Ваше сообщение"
+            ></textarea>
+          </div>
+
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <!-- ФУТЕР -->
+    <footer class="footer" id="contact">
+      <p>Tourist Agency</p>
+      <p>ООО «Tourist Agency», г.Актобе, ул. Центральная 1, офис 1</p>
+      <p><a href="#">Политика конфиденциальности</a></p>
+      <p>8 800 333 22 33</p>
+      <p>Звонок по Казахстану бесплатный</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
